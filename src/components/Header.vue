@@ -63,6 +63,10 @@ const getInTouchClassNames = computed(() => {
     "header-get-in-touch-isProjectPage": projectId.value !== null,
   };
 });
+
+const getInTouchUrl = computed(() => {
+  return social.find((item) => item.name === "whatsapp")?.url ?? social.find((item) => item.name === "linkedin")?.url ?? "";
+});
 </script>
 
 <template>
@@ -100,7 +104,7 @@ const getInTouchClassNames = computed(() => {
         renderAs="a"
         variant="accent"
         :aria-label="t('get-in-touch')"
-        :href="social.find((item) => item.name === 'mail')?.url ?? ''"
+        :href="getInTouchUrl"
         external
         :class="getInTouchClassNames"
         data-cursor="circle-white"

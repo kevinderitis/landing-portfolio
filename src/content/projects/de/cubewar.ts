@@ -16,7 +16,7 @@ export default {
   videoBorder: false,
   live: "https://cubewar.io",
   description:
-    "CubeWar ist ein browserbasiertes Multiplayer-Spiel, in dem Spieler in schnellen, strategischen Kämpfen gegeneinander antreten.<br/><br/>Ich habe den gesamten Stack selbst entwickelt, inklusive der Spiel-Engine, des Client-Timeline-Systems und des Echtzeit-Netzwerks mit Redis-basiertem Matchmaking für flüssiges Gameplay.",
+    "CubeWar ist ein browserbasiertes Multiplayer-Spiel, in dem Spieler in schnellen, strategischen Kämpfen gegeneinander antreten.<br/><br/>Das Projekt kombiniert eine eigene Spiel-Engine, ein Client-Timeline-System und Echtzeit-Netzwerklogik mit Redis-basiertem Matchmaking für flüssiges Gameplay.",
   components: [
     {
       type: "media",
