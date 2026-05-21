@@ -16,6 +16,6 @@ const handleLangSwitch = () => {
     data-cursor="circle-white"
     data-sound="click"
     data-hoversound="hover"
-    >{{ locale === "de" ? "EN" : "DE" }}</Button
+    >{{ locale === "de" ? "EN" : "ES" }}</Button
   >
 </template>

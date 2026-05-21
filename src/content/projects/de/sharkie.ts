@@ -13,7 +13,7 @@ export default {
   theme: "light",
   tags: ["javascript", "html", "css"],
   description:
-    "Sharkie ist ein 2D-Unterwasser-Abenteuerspiel, entwickelt mit Vanilla JavaScript und HTML5 Canvas.<br/><br/>Das Projekt basiert auf objektorientierten Programmierprinzipien und nutzt eigene Klassen für Spielfiguren, Gegner und Spielsysteme, ergänzt durch flüssige Animationen, Kampfsysteme und mehrschichtige Parallax-Hintergründe.",
+    "Sharkie es un juego de aventura submarina 2D desarrollado con JavaScript vanilla y HTML5 Canvas.<br/><br/>El proyecto está estructurado con principios de programación orientada a objetos, con clases personalizadas para entidades, enemigos y sistemas del juego, además de animaciones fluidas, combate y fondos con parallax por capas.",
   components: [
     {
       type: "media",
@@ -28,8 +28,8 @@ export default {
       props: {
         type: "image",
         src: sharkie0,
-        alt: "Spielfiguren und Karten-Design",
-        caption: "Spielfiguren und Karten-Design",
+        alt: "Entidades y diseño del mapa",
+        caption: "Entidades y diseño del mapa",
       },
     },
     {
@@ -37,8 +37,8 @@ export default {
       props: {
         type: "image",
         src: sharkie1,
-        alt: "Boss-Kampf",
-        caption: "Boss-Kampf",
+        alt: "Pelea contra jefe",
+        caption: "Pelea contra jefe",
       },
     },
     {
@@ -55,8 +55,8 @@ export default {
       props: {
         type: "image",
         src: sharkie3,
-        alt: "Sieg-Screen",
-        caption: "Sieg-Screen",
+        alt: "Pantalla de victoria",
+        caption: "Pantalla de victoria",
       },
     },
     {
@@ -64,8 +64,8 @@ export default {
       props: {
         type: "image",
         src: sharkie4,
-        alt: "Todes-Screen",
-        caption: "Todes-Screen",
+        alt: "Pantalla de derrota",
+        caption: "Pantalla de derrota",
       },
     },
   ],

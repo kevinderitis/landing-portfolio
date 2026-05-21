@@ -16,7 +16,7 @@ export default {
   videoBorder: false,
   live: "https://cubewar.io",
   description:
-    "CubeWar ist ein browserbasiertes Multiplayer-Spiel, in dem Spieler in schnellen, strategischen Kämpfen gegeneinander antreten.<br/><br/>Das Projekt kombiniert eine eigene Spiel-Engine, ein Client-Timeline-System und Echtzeit-Netzwerklogik mit Redis-basiertem Matchmaking für flüssiges Gameplay.",
+    "CubeWar es un juego multijugador basado en navegador donde los jugadores controlan avatares cúbicos en batallas estratégicas de ritmo rápido.<br/><br/>El proyecto combina un motor de juego propio, un sistema de timeline en cliente y lógica de red en tiempo real con matchmaking basado en Redis para lograr una experiencia fluida.",
   components: [
     {
       type: "media",
@@ -40,8 +40,8 @@ export default {
       props: {
         type: "image",
         src: cubewar1,
-        alt: "Karten Themen",
-        caption: "Karten Themen",
+        alt: "Temas de mapas",
+        caption: "Temas de mapas",
       },
     },
     {
@@ -49,8 +49,8 @@ export default {
       props: {
         type: "image",
         src: cubewar2,
-        alt: "Authentifizierung",
-        caption: "Authentifizierung",
+        alt: "Autenticación",
+        caption: "Autenticación",
       },
     },
     {
@@ -58,8 +58,8 @@ export default {
       props: {
         type: "image",
         src: cubewar3,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Diseño responsive",
+        caption: "Diseño responsive",
       },
     },
     {
@@ -67,8 +67,8 @@ export default {
       props: {
         type: "image",
         src: cubewar4,
-        alt: "Mehrere Spielmodi",
-        caption: "Mehrere Spielmodi",
+        alt: "Múltiples modos de juego",
+        caption: "Múltiples modos de juego",
       },
     },
     {
@@ -76,8 +76,8 @@ export default {
       props: {
         type: "image",
         src: cubewar5,
-        alt: "Party-System",
-        caption: "Party-System",
+        alt: "Sistema de grupos",
+        caption: "Sistema de grupos",
       },
     },
   ],

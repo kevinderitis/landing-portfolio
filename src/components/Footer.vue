@@ -81,26 +81,11 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
               external
               data-cursor="circle-white"
               data-hoversound="hover"
-              >Kevin DeRitis</Link
+              >Kevin De Ritis</Link
             >
           </Clickable>
         </div>
-        <div class="footer-credits-music">
-          <p>
-            {{ t("music-produced-by") }}
-          </p>
-          <Clickable renderAs="div">
-            <Link
-              href="https://soundcloud.com/hmsurf"
-              class="footer-link children-unclickable"
-              external
-              data-cursor="circle-white"
-              data-hoversound="hover"
-              >HM Surf</Link
-            >
-          </Clickable>
-        </div>
-        <p>© {{ new Date().getFullYear() }} Kevin DeRitis</p>
+        <p>© {{ new Date().getFullYear() }} Kevin De Ritis</p>
       </div>
     </div>
   </footer>

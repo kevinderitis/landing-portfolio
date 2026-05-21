@@ -15,14 +15,14 @@ export default {
   tags: ["three", "node", "kubernetes", "redis", "postgresql"],
   videoBorder: true,
   description:
-    "Quibbo ist eine Plattform für schnelle, rundenbasierte Multiplayer-Spiele. Sie verbindet Matchmaking, anpassbare 3D-Avatare und Account-Integration mit einem Rangsystem auf ELO-Basis.<br/><br/>Das Projekt begann als technisches Experiment und entwickelte sich zu einem skalierbaren System, um neue Spielideen auszuprobieren.",
+    "Quibbo es una plataforma para juegos multijugador rápidos por rondas. Reúne matchmaking, avatares 3D personalizables e integración de cuentas con recompensas competitivas.<br/><br/>El proyecto comenzó como un experimento técnico y creció hasta convertirse en un sistema escalable para probar nuevas ideas de juego.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoQuibbo,
-        caption: "Benutzeroberfläche",
+        caption: "Experiencia de usuario",
       },
     },
     {
@@ -30,8 +30,8 @@ export default {
       props: {
         type: "image",
         src: quibbo0,
-        alt: "Avatar Ersteller",
-        caption: "Avatar Ersteller",
+        alt: "Editor de avatar",
+        caption: "Editor de avatar",
       },
     },
     {
@@ -39,8 +39,8 @@ export default {
       props: {
         type: "image",
         src: quibbo1,
-        alt: "Mehrspieler Tic-Tac-Toe",
-        caption: "Mehrspieler Tic-Tac-Toe",
+        alt: "Tic-Tac-Toe multijugador",
+        caption: "Tic-Tac-Toe multijugador",
       },
     },
     {
@@ -48,8 +48,8 @@ export default {
       props: {
         type: "image",
         src: quibbo2,
-        alt: "Verschiedene Minispiele",
-        caption: "Verschiedene Minispiele",
+        alt: "Múltiples minijuegos",
+        caption: "Múltiples minijuegos",
       },
     },
     {
@@ -57,8 +57,8 @@ export default {
       props: {
         type: "image",
         src: quibbo3,
-        alt: "Avatar Variationen",
-        caption: "Avatar Variationen",
+        alt: "Variaciones de avatar",
+        caption: "Variaciones de avatar",
       },
     },
     {
@@ -66,8 +66,8 @@ export default {
       props: {
         type: "image",
         src: quibbo4,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Diseño responsive",
+        caption: "Diseño responsive",
       },
     },
     {
@@ -75,8 +75,8 @@ export default {
       props: {
         type: "image",
         src: quibbo5,
-        alt: "Dunkles Design",
-        caption: "Dunkles Design",
+        alt: "Modo oscuro",
+        caption: "Modo oscuro",
       },
     },
   ],

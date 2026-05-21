@@ -12,15 +12,15 @@ export default {
   videoBorder: false,
   live: "https://www.streakon.app",
   description:
-    "StreakOn unterstützt kleine Gruppen dabei, durch gemeinsame Streaks und einfache Check-ins bei täglichen Gewohnheiten dranzubleiben.<br/><br/>Die App wurde mit Fokus auf geringe Interaktionshürden, mobile Nutzung und leichte soziale Funktionen entwickelt – mit Next.js, Node.js, PostgreSQL und Redis.",
+    "StreakOn ayuda a grupos pequeños a mantener la constancia en hábitos diarios mediante rachas compartidas y check-ins simples.<br/><br/>La app fue diseñada con foco en interacciones de baja fricción, uso mobile y funciones sociales livianas, usando Next.js, Node.js, PostgreSQL y Redis.",
   components: [
     {
       type: "media",
       props: {
         type: "image",
         src: streakon0,
-        alt: "Solo- und Gruppen-Streaks",
-        caption: "Solo- und Gruppen-Streaks",
+        alt: "Rachas individuales y grupales",
+        caption: "Rachas individuales y grupales",
       },
     },
     {
@@ -28,8 +28,8 @@ export default {
       props: {
         type: "image",
         src: streakon1,
-        alt: "Streak-Fortschritt",
-        caption: "Streak-Fortschritt",
+        alt: "Progreso de rachas",
+        caption: "Progreso de rachas",
       },
     },
     {
@@ -37,8 +37,8 @@ export default {
       props: {
         type: "image",
         src: streakon2,
-        alt: "Freunde anfeuern",
-        caption: "Freunde anfeuern",
+        alt: "Animar a amigos",
+        caption: "Animar a amigos",
       },
     },
     {
@@ -46,8 +46,8 @@ export default {
       props: {
         type: "image",
         src: streakon3,
-        alt: "Einladungs-Flow",
-        caption: "Einladungs-Flow",
+        alt: "Flujo de invitación",
+        caption: "Flujo de invitación",
       },
     },
   ],

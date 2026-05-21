@@ -13,14 +13,14 @@ export default {
   tags: ["javascript", "html", "css"],
   videoBorder: true,
   description:
-    "Ein grundlegendes Webprojekt, das zentrale Frontend-Konzepte anhand einer vertrauten Oberfläche trainiert.<br/><br/>Das Pokédex nutzt eine öffentliche API und konzentriert sich auf asynchronen Datenabruf, responsives Verhalten und eine saubere Komponentenstruktur.",
+    "Un proyecto web base pensado para practicar conceptos centrales de frontend a través de una interfaz familiar.<br/><br/>La Pokédex consume una API pública y pone el foco en fetch asíncrono de datos, comportamiento responsive y una estructura de componentes limpia.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoPokedex,
-        caption: "Pokédex Anwendung",
+        caption: "App Pokédex",
       },
     },
     {
@@ -28,8 +28,8 @@ export default {
       props: {
         type: "image",
         src: pokedex0,
-        alt: "Standardansicht",
-        caption: "Standardansicht",
+        alt: "Vista por defecto",
+        caption: "Vista por defecto",
       },
     },
     {
@@ -37,8 +37,8 @@ export default {
       props: {
         type: "image",
         src: pokedex1,
-        alt: "Suchfunktion",
-        caption: "Suchfunktion",
+        alt: "Función de búsqueda",
+        caption: "Función de búsqueda",
       },
     },
     {
@@ -46,8 +46,8 @@ export default {
       props: {
         type: "image",
         src: pokedex2,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Diseño responsive",
+        caption: "Diseño responsive",
       },
     },
     {
